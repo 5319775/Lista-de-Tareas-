@@ -1,0 +1,37 @@
+/* Estilos para el cronómetro */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9e5d8; /* Color de fondo cálido */
+}
+
+#CRONOMETRO {
+    font-size: 2em;
+    color: #b5653e; /* Color del título */
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #654321; /* Color del cronómetro */
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #d9a25f; /* Color del botón */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Color del texto del botón */
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    opacity: 0.3; /* Cambia el nivel de opacidad según tu preferencia */
+    cursor: not-allowed;
+}
+
+
